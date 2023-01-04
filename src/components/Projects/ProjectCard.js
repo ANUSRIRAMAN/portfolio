@@ -19,6 +19,7 @@ const ProjectCardComponent = ({
   title,
   codeLink,
   liveLink,
+  tech,
 }) => {
   return (
     <>
@@ -27,7 +28,8 @@ const ProjectCardComponent = ({
           <ProjectImage src={image} alt={title} />
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
-            <ProjectTitle>{title}</ProjectTitle>
+            <ProjectTitle>{title}<br/><br/>{tech}</ProjectTitle>
+            
             <ProjectCodeLink
               href={codeLink}
               target="_blank"

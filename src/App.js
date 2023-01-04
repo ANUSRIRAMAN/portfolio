@@ -24,8 +24,10 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
-          <Projects />
           <About />
+          
+          <Projects />
+          
           <ParallaxComponent />
           <Technologies />
           <Playground />
